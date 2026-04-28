@@ -15,7 +15,6 @@ import androidx.wear.compose.material3.ScreenScaffold
 import androidx.wear.compose.material3.Text
 import me.weishu.kernelsu.R
 import me.weishu.kernelsu.ui.wear.wearHorizontalPadding
-import me.weishu.kernelsu.ui.wear.wearPaddedFullWidth
 
 @Composable
 fun ExecuteModuleActionScreenWear(

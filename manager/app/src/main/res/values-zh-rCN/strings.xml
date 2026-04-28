@@ -258,7 +258,7 @@
     <string name="wear_state_on">开</string>
     <string name="wear_state_off">关</string>
     <string name="wear_no_apps">没有应用</string>
-    <string name="open_link_unavailable">手表上没有可打开此链接的应用</string>
+    <string name="open_link_unavailable">没有可打开此链接的应用</string>
     <string name="open_link_failed">打开链接失败</string>
     <string name="wear_search_modules">搜索模块</string>
     <string name="wear_search_apps">搜索应用</string>
