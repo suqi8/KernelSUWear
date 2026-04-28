@@ -35,6 +35,7 @@ enum class ScreenShape(val value: String) {
     Square("square");
 
     companion object {
+        // Defaults to Round for any unrecognized value, matching the SharedPreferences default.
         fun fromValue(value: String): ScreenShape = if (value == Square.value) Square else Round
     }
 }
