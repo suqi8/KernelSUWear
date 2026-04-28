@@ -18,9 +18,9 @@ fun openExternalUrl(context: Context, url: String) {
     }.onFailure {
         val messageRes = when (it) {
             is SecurityException,
-            is ActivityNotFoundException -> R.string.wear_open_link_unavailable
+            is ActivityNotFoundException -> R.string.open_link_unavailable
 
-            else -> R.string.wear_open_link_failed
+            else -> R.string.open_link_failed
         }
         Toast.makeText(context, messageRes, Toast.LENGTH_SHORT).show()
     }
