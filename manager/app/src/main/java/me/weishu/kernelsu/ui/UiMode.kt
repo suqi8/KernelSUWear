@@ -30,4 +30,13 @@ enum class UiMode(val value: String) {
 
 val LocalUiMode = staticCompositionLocalOf { UiMode.defaultUiMode }
 
-val LocalScreenShape = staticCompositionLocalOf { "round" }
+enum class ScreenShape(val value: String) {
+    Round("round"),
+    Square("square");
+
+    companion object {
+        fun fromValue(value: String): ScreenShape = if (value == Square.value) Square else Round
+    }
+}
+
+val LocalScreenShape = staticCompositionLocalOf { ScreenShape.Round }
